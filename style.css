@@ -59,7 +59,10 @@ i {
 
 @media screen and (max-width: 600px) {
 	body {
-		font-size: 12px;
+		font-size: 14px;
 		padding: 5em 10%;
+	}
+	h1 {
+		font-size: 1.9em;
 	}
 }
