@@ -1,0 +1,64 @@
+body {
+	padding: 5em 15%;
+	margin: 0;
+	font-size: 16px;
+	text-align: left;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 1em;
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+blockquote {
+	font-family: "Caveat", serif;
+	font-size: 1.7em;
+	font-weight: 300;
+	margin: 1.2em 0 2em 0;
+	border-left: 0.2em solid #F7E0B5;
+	padding-left: 1.1em;
+}
+
+header {
+	margin-top: 2.5em;
+	margin-bottom: 1.5em;
+}
+
+h2 {
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+	font-size: 1.9em;
+}
+
+p {
+	font-family: "PT Sans", sans-serif;
+	font-size: 1em;
+	white-space: pre-line;
+	margin-top: 0;
+}
+
+i, b {
+	font-style: normal;
+}
+
+b {
+	text-align: right;
+	font-weight: 300;
+	color: #637687;
+	margin-top: .8em;
+	font-size: .5em;
+	font-family: "PT Serif", serif;
+}
+
+i {
+	color: #4473b0;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 12px;
+	}
+}
